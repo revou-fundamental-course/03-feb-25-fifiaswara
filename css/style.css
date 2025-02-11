@@ -1,10 +1,10 @@
 /* ini css */
 
-main (
-    max-width: 750px;
-    justify-self: center;
-)
+*,
 
-.main-header (
-    
-)
+.main-content {
+    padding: 2px;
+    justify-items: center;
+    font-family: math;
+}
+

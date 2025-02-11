@@ -11,23 +11,25 @@
 
  </head>
  <body>
-    <!-- HEADER -->
-    <header class="main-header">
+   <!-- HEADER -->
+      <header>
          <h1>Konversi Suhu</h1>
-    </header>
+      </header>
+   <!-- HEADER END -->
 
-    <!-- CONTENT -->
-     <main>
+   <!-- CONTENT -->
+      <main class="main-content" style="background-color: antiquewhite;">
       <!-- Introduction -->
          <section>
             <p>Masukkan suhu derajat celcius (&deg;C) ke kotak di bawah, lalu klik tombol Konversi 
                untuk mendapatkan hasil konversi dalam bentuk Farenhait (&deg;F).</p>
-         </section>
-
-         <!-- Form Input Suhu Yang Ingin Dikonversi -->
-          <section>
-            <form>
-               <div>
+          </section>
+      <!-- INTRODUCTION END -->
+      
+      <!-- Form Input Suhu Yang Ingin Dikonversi -->
+         <section>
+           <form>
+              <div>
                   <label for="main-input">Celcius</label>
                   <input type="number" id="main-input">
                </div>
@@ -36,45 +38,53 @@
                   <button>Konversi</button>
                   <button>Reset</button>
                   <button>Reverse</button>
-               </div>
-            </form>
-          </section>
-               
-         <!-- Hasil Konversi -->
-          <section>
-            <div>
+                </div>
+                  </form>
+         </section>
+      <!-- FORM END -->
+                     
+      <!-- Hasil Konversi -->
+         <section>
+             <div>
                <label for="main-result">Farenhait</label>
                <input type="text" id="main-result" readonly>
+             </div>
+         </section>
+      <!-- HASIL AKHIR -->
+
+      <!-- Cara Konversi Suhu -->
+         <section>
+            <div>
+               <label for="cara-konversi">Cara Konversi</label>
+               <input type="text" id="cara-konversi" readonly>
             </div>
-          </section>
+         </section>
+      <!-- KONVERSI END -->
+               
+      <!--  Penjelasan Rumus Konversi Suhu-->
+         <section>
+            <header>
+               <h3>Cara Konversi dari Celcius(&deg;C) ke Farenhait(&deg;F)</h3>
+            </header>
 
-         <!-- Cara Konversi Suhu -->
-           <section>
-               <div>
-                  <label for="cara-konversi">Cara Konversi</label>
-                  <input type="text" id="cara-konversi" readonly>
-               </div>
-           </section>
-         
-         <!--  Penjelasan Rumus Konversi Suhu-->
-           <section>
-               <header>
-                  <h3>Cara Konversi dari Celcius(&deg;C) ke Farenhait(&deg;F)</h3>
-               </header>
+            <hr>
 
-               <hr>
+            <article>
+            <p>Suhu <span><b>S</b></span> dalam derajat Fahrenheit (&deg;F) sama dengan 
+            suhu <span>S</span> dalam bentuk derajat Celcius (&deg;C) kali 9/5 tambah 32.</p>
 
-               <article>
-                  <p>Suhu <span>S</span></p>
-                  <p>S<sub>(&deg;F)</sub></p>
-               </article>
-           </section>
+            <p>S<sub>(&deg;F)</sub> = (S(&deg;C)x9/5)+32</p>
+            <p>atau</p>
+            <p>S(&deg;F)=(S(&deg;C)x1,8)=32</p>
+            </article>
+         </section>
 
       </main>
+   <!-- CONTENT END -->
 
-     <!-- FOOOTER -->
+   <!-- FOOOTER -->
       <footer>
-        
+         
       </footer>
  </body>
  </html>
